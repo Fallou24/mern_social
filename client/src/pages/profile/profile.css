@@ -1,0 +1,72 @@
+.profileRightBottom{
+    display: flex;
+}
+.profileContainer{
+    display: flex;
+}
+.profileRight{
+    flex: 9;
+}
+.profileImgContainer{
+    position: relative;
+}
+.profileCoverImg{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.profileUserImg{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    border: 3px solid #fff;
+    top: 150px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    object-fit: cover;
+}
+.profileUserInfo{
+    text-align: center;
+    margin-top: 4rem;
+}
+.profileUsername{
+    font-size: 1.5rem;
+    margin-bottom: .25rem;
+}
+.rightbarTitle{
+    font-size: 1.125rem;
+    margin-bottom: .25rem;
+    font-weight: 500;
+}
+.rightInfoItem{
+    margin: .75rem 0;
+}
+.infoName{
+    margin-right: 1rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.712);
+    font-size: 1rem;
+}
+.infoData{
+    font-weight: 300;
+}
+.rightbarFollowings{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.followingImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.followingTitle{
+    margin-top: 2.5rem;
+    margin-bottom: .5rem;
+}
+.rightbarFollowing{
+    cursor: pointer;
+}

@@ -1,0 +1,62 @@
+.sidebar {
+    height: calc(100vh - 50px);
+    flex: 3;
+    overflow-y: scroll;
+    position: sticky;
+    top: 50px;
+}
+
+li {
+    list-style: none;
+}
+
+.sidebarContainer {
+    padding: 20px;
+}
+
+.sidebarItem {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    margin-bottom: 20px;
+}
+
+.sidebarListIemText,
+.sidebaruserName {
+    font-size: 1rem;
+}
+
+.showmoreBtn {
+    padding: .5rem 1rem;
+    margin-bottom: 20px;
+}
+
+.sidebarFreindImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.sidebarFreindItem {
+    display: flex;
+    align-items: center;
+    column-gap: .75rem;
+    margin-bottom: 15px;
+}
+
+.sidebar hr {
+    margin-bottom: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(179, 179, 179);
+}
